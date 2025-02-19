@@ -1,4 +1,4 @@
-Remember Firebase automatically mirrors your firebase project into Google Cloud. You need to get in there and manage domains with their callbacks, and also enable things like People API. Console will reveal it all anyway.
+Remember Firebase automatically mirrors your project into Google Cloud (using Project IDs, their names basically). You need to get in there and manage domains with their callbacks, and also enable things like People API. Console will reveal it all anyway.
 
 Flutter version used is 3.7.12 because right now I can't update my macOS version (BigSur 11.7) and that's as far as Xcode 13.2.1 goes.
 
