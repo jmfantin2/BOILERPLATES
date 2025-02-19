@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/" />
+
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="A new Flutter project." />
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="vert_bweb_app" />
+    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <title>vert_bweb_app</title>
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- ✅ Load Firebase SDK Correctly -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js"></script>
+
+    <script>
+      window.firebaseConfig = {
+        apiKey: 'AIzaSyBfCE8cX5Xaj9UjShdDXtHMJ4WBiFtfyVk',
+        authDomain: 'vert-brasaweb.firebaseapp.com',
+        projectId: 'vert-brasaweb',
+        storageBucket: 'vert-brasaweb.appspot.com',
+        messagingSenderId: '860528877107',
+        appId: '1:860xxxxxxxx7:web:cxxxxxxxxf7a8270a74d46',
+        webClientId:
+          '8605xxxxxxxx-3meaxxxxxxxxjct1iv4pu43l2pgkq7a0.apps.googleusercontent.com',
+      };
+
+      firebase.initializeApp(window.firebaseConfig);
+      console.log('🔥 Firebase initialized successfully');
+    </script>
+
+    <script src="flutter.js" defer></script>
+  </head>
+  <body>
+    <script>
+      window.addEventListener('load', function (ev) {
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: null,
+          },
+          onEntrypointLoaded: function (engineInitializer) {
+            engineInitializer.initializeEngine().then(function (appRunner) {
+              appRunner.runApp();
+            });
+          },
+        });
+      });
+    </script>
+  </body>
+</html>

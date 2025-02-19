@@ -1,0 +1,35 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "vert-brasaweb",
+          "appId": "1:8605xxxxxxxx:android:fxxxxxxxxf076d1ea74d46",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "vert-brasaweb",
+          "appId": "1:8605xxxxxxxx:ios:9xxxxxxxx389f99da74d46",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "vert-brasaweb",
+          "configurations": {
+            "android": "1:8605xxxxxxxx:android:fxxxxxxxxf076d1ea74d46",
+            "ios": "1:8605xxxxxxxx:ios:9xxxxxxxx389f99da74d46",
+            "web": "1:860xxxxxxxx7:web:cxxxxxxxxf7a8270a74d46"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

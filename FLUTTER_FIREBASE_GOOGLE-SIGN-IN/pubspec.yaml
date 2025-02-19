@@ -1,0 +1,24 @@
+name: vert_bweb_app
+description: 'A new Flutter project.'
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0' # Updated Dart constraint for Flutter 3.7.12
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 1.0.6 # Updated to latest compatible version
+  firebase_auth: ^4.4.2 # Latest compatible with Flutter 3.7.12
+  google_sign_in: ^6.1.4
+  firebase_core: ^2.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.3 # Latest 2.x version for improved linting
+
+flutter:
+  uses-material-design: true
