@@ -16,3 +16,6 @@ Doctor summary (to see all details, run flutter doctor -v):
 [✓] Connected device (2 available) 
 [✓] HTTP Host Availability 
 ```
+## If you're going to use Firebase Storage, then Google Cloud Shell has to be enabled
+
+[Enable CORS for Firebase Storage in Flutter Web | Fix Image Loading Issues Easily! | Coding With T](https://www.youtube.com/embed/pJ_iClqKEpc?si=P3nwPvH5U4LZ0QDl)
